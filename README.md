@@ -1,6 +1,10 @@
 # seidor_API desafio.
-Teste Técnico Prático
+
  <img height="180em" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"/>
+ 
+ <h2>Teste Técnico Prático</h2>
+ 
+ Para rodar acesse a documentação <a href="https://github.com/rafaxavier/seidor_API/blob/master/documentacaoAPI_Seidor">clicando aqui! </a>
 
 Precisamos desenvolver um sistema web que nos permita controlar a utilização dos automóveis
 de uma empresa. Para isso precisaremos construir uma WebAPI com as funcionalidades abaixo:
