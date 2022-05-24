@@ -1,0 +1,63 @@
+*** Rotas automóveis ***
+cadastrar novo veículo  = POST localhost:3000/automoveis 
+> paramentros = {
+	placa: "valor",       obs: identificador único
+	cor: "valor",
+	marca: "valor"
+}  
+
+Atualizar um automóvel = PUT localhost:3000/automoveis/{placa_a_ser_pesquisada}
+> paramentros a serem atualizados = {
+	placa: "valor",       obs: identificador único
+	cor: "valor",
+	marca: "valor"
+} 
+
+Excluir um automóvel = DELETE localhost:3000/automoveis/{placa_a_ser_pesquisada}
+
+Recuperar um automóvel pelo seu id = GET localhost:3000/automoveis/{placa_a_ser_pesquisada}
+
+Listar todos automóveis = GET localhost:3000/listar-automoveis
+
+Listar os automóveis por cor = GET localhost:3000/automoveis/cor/{cor_a_ser_pesquisada}
+
+Listar os automóveis por marca = GET localhost:3000/automoveis/marca/{marca_a_ser_pesquisada}
+
+
+*** Rotas motoristas ***
+cadastrar novo veículo = POST localhost:3000/motoristas
+> paramentros = {
+	id: "valor",       obs: identificador único
+	nome: "valor"
+}  
+
+Atualizar um motoristas = PUT localhost:3000/motoristas/{id}
+> paramentros a serem atualizados = {
+	nome: "valor"
+} 
+
+Excluir um motoristas = DELETE localhost:3000/motoristas/{id}
+
+Recuperar um motoristas pelo seu id = GET localhost:3000/motoristas/{id}
+
+Listar os motoristas = GET localhost:3000/listar-motoristas
+
+Listar os motorista por nome = GET localhost:3000/motoristas/nome/{nome_exato_a_ser_buscado}
+
+
+*** Rotas para utilizacao de veiculos ***
+
+Listar os registros de utilizacao = GET localhost:3000/registros
+
+utilizar veiculo = POST localhost:3000/utilizar
+> paramentros = {
+	id_motorista: "65",
+	placa: "3ssa",
+	motivo: "teste- motivo",
+} 
+
+
+Devolver um veiculo = PUT localhost:3000/dovolver/{placa}
+> paramentros a serem atualizados = {
+	nome: "valor"
+} 
