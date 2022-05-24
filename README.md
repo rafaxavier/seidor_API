@@ -1,5 +1,6 @@
 # seidor_API desafio.
 Teste Técnico Prático
+ <img height="180em" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"/>
 
 Precisamos desenvolver um sistema web que nos permita controlar a utilização dos automóveis
 de uma empresa. Para isso precisaremos construir uma WebAPI com as funcionalidades abaixo:
